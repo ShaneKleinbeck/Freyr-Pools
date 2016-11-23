@@ -1,0 +1,27 @@
+{
+  "name": "freyr-pools",
+  "version": "1.0.0",
+  "description": "Modern Luxury Pools",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShaneKleinbeck/Freyr-Pools.git"
+  },
+  "author": "Shane Kleinbeck <shanekleinbeck@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShaneKleinbeck/Freyr-Pools/issues"
+  },
+  "homepage": "https://github.com/ShaneKleinbeck/Freyr-Pools#readme",
+  "devDependencies": {
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "nodemon": "^1.11.0"
+  }
+}
+

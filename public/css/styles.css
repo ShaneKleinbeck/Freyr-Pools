@@ -1,0 +1,12 @@
+.navbar-default {
+  background-color: white;
+  padding: 8px; }
+  .navbar-default .navbar-brand {
+    color: black;
+    font-family: serif;
+    font-size: 40px; }
+
+.background-main {
+  background: url(/images/hallway.jpeg) no-repeat center center;
+  height: 800px;
+  background-size: cover; }
