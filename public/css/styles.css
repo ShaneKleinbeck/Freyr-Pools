@@ -10,3 +10,48 @@
   background: url(/images/hallway.jpeg) no-repeat center center;
   height: 800px;
   background-size: cover; }
+
+.divider1 {
+  padding: 10px;
+  background-color: #EEEEF2; }
+  .divider1 .text-area {
+    text-align: center;
+    padding: 50px; }
+    .divider1 .text-area h1 {
+      font-size: 32px;
+      font-family: serif; }
+    .divider1 .text-area hr.seperator {
+      border: 0;
+      height: 1px;
+      background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+      background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); }
+  .divider1 .section1 {
+    text-align: center;
+    padding-bottom: 50px; }
+    .divider1 .section1 .about-us {
+      padding: 10px; }
+      .divider1 .section1 .about-us .arch-image {
+        background: url() no-repeat center center;
+        background-size: cover;
+        height: 200px;
+        padding: 10px; }
+    .divider1 .section1 .current-projects {
+      padding: 10px; }
+
+.divider2 {
+  padding: 100px;
+  font-family: serif; }
+  .divider2 .your-project-text h1, .divider2 .your-project-text h3 {
+    text-align: center; }
+  .divider2 .your-project-image {
+    padding-right: 30px;
+    padding-left: 100px;
+    text-align: center; }
+
+.divider3 {
+  padding: 50px;
+  font-family: serif; }
+  .divider3 .life-after-text h1, .divider3 .life-after-text h3 {
+    text-align: center; }
