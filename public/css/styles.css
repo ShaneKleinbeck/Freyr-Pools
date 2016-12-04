@@ -1,3 +1,5 @@
+/********** Navbar Partial **********/
+/************************************/
 .navbar-default {
   background-color: white;
   padding: 8px; }
@@ -6,14 +8,15 @@
     font-family: serif;
     font-size: 40px; }
 
+/********** Index Page **********/
+/********************************/
 .background-main {
   background: url(/images/hallway.jpeg) no-repeat center center;
   height: 800px;
   background-size: cover; }
 
 .divider1 {
-  padding: 10px;
-  background-color: #EEEEF2; }
+  padding: 10px; }
   .divider1 .text-area {
     text-align: center;
     padding: 50px; }
@@ -47,11 +50,50 @@
     text-align: center; }
   .divider2 .your-project-image {
     padding-right: 30px;
-    padding-left: 100px;
+    padding-left: 130px;
     text-align: center; }
 
 .divider3 {
-  padding: 50px;
+  padding: 150px;
   font-family: serif; }
   .divider3 .life-after-text h1, .divider3 .life-after-text h3 {
     text-align: center; }
+  .divider3 .life-after-image {
+    padding-left: 150px; }
+
+/********** About Page **********/
+/********************************/
+.about1 .nord-god-info {
+  line-height: 2em; }
+  .about1 .nord-god-info .nord-god-left {
+    padding: 100px; }
+    .about1 .nord-god-info .nord-god-left .nord-god-image {
+      height: 750px;
+      padding-left: 100px; }
+  .about1 .nord-god-info .nord-god-right {
+    padding: 100px;
+    height: 950px; }
+    .about1 .nord-god-info .nord-god-right .nord-god-text {
+      text-align: center;
+      font-size: 20px;
+      padding-top: 200px;
+      padding-left: 100px;
+      padding-right: 100px; }
+      .about1 .nord-god-info .nord-god-right .nord-god-text #nord-god-quote1 {
+        text-align: left;
+        padding-left: 100px;
+        font-family: 'Skranji', cursive; }
+      .about1 .nord-god-info .nord-god-right .nord-god-text #nord-god-quote2 {
+        text-align: left;
+        padding-left: 150px;
+        font-family: 'Skranji', cursive; }
+      .about1 .nord-god-info .nord-god-right .nord-god-text #nord-god-quote3 {
+        text-align: left;
+        padding-left: 200px;
+        font-family: 'Skranji', cursive; }
+      .about1 .nord-god-info .nord-god-right .nord-god-text #about-text-1 {
+        text-align: left;
+        padding-top: 150px; }
+
+/********** Footer Partial **********/
+/********************************/
