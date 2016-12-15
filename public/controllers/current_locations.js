@@ -77,7 +77,7 @@ function initMap() {
       animation: google.maps.Animation.DROP
     });
 
-    // Add Click Listener to Show Modal
+    // Add Click Listener to Show
     google.maps.event.addListener(marker, 'click', function(){
       $('#myModal').modal('show');
     });
