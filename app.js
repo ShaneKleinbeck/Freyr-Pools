@@ -2,16 +2,6 @@
 var express = require('express');
 var app = express();
 
-// // Add Time-Stamps in front of log messages
-// require('console-stamp')(console, '[HH:MM:ss.l]');
-
-// // Define Date Format
-// express.logger.format('mydate', function(){
-//   var df = require('console-stamp/node_modules/dateformat');
-//   return df(new Date(), 'HH:MM:ss.l');
-// })
-// app.use(express.logger('[:mydate] :method :url :status :res[content-length] - :remote-addr - :response-time ms'));
-
 // Set View Engine To ejs
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));

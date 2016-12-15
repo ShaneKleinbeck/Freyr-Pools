@@ -3,14 +3,22 @@
 <html lang="en">
 <head>
   <% include ../partials/head %>
+  <title>Simple Map</title>
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="utf-8">
 </head>
 <body>
 
 <!-- Navbar -->
 <% include ../partials/navbar %>
 
+<!-- Map -->
+<div id="map"></div>
+
 <footer>
   <% include ../partials/footer %>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC6gUam7oYuxEHzx0Adjvq-FgAHonzvbs&callback=initMap"
+ async defer></script>
 </footer>
 </body>
-</html>
+</html

@@ -111,55 +111,22 @@
 /********************************/
 
 .about1 {
-  .nord-god-info {
-    line-height: 2em;
 
-    .nord-god-left {
-      padding: 100px;
+}
 
-      .nord-god-image {
-        height: 750px;
-        padding-left: 100px;
-      }
-    }
+/********** Current Page **********/
+/********************************/
 
-    .nord-god-right {
-      padding: 100px;
-      height: 950px;
+#map {
+  width: 100%;
+  height: 100%;
+}
 
-      .nord-god-text {
-        text-align: center;
-        font-size: 20px;
-        padding-top: 200px;
-        padding-left: 100px;
-        padding-right: 100px;
-
-
-        #nord-god-quote1 {
-          text-align: left;
-          padding-left: 100px;
-          font-family: 'Skranji', cursive;
-        }
-
-        #nord-god-quote2 {
-          text-align: left;
-          padding-left: 150px;
-          font-family: 'Skranji', cursive;
-        }
-
-        #nord-god-quote3 {
-          text-align: left;
-          padding-left: 200px;
-          font-family: 'Skranji', cursive;
-        }
-
-        #about-text-1 {
-          text-align: left;
-          padding-top: 150px;
-        }
-      }
-    }
-  }
+// Optional: Makes the sample page fill the window.
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /********** Footer Partial **********/
