@@ -16,40 +16,7 @@ var currentProjects = [
   {name: "Vita Vilcina", image: "/images/vita-vilcina.jpg"}
 ];
 
-function initMap() {
 
-  var myLatlng = new google.maps.LatLng(32.152701, 13.706484);
-
-  var mapOptions = {
-    zoom: 3,
-    center: myLatlng,
-    scrollwheel: false
-  }
-
-  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-  fetch('/markers.json')
-    .then(function(response){return response.json()})
-    .then(plotMarkers);
-
-  function plotMarkers(plotMarkers){
-    markers = [];
-
-    plotMarkers.forEach(function(marker){
-      var position = new google.maps.LatLng(marker.lat, marker.lng);
-      var title = marker.title;
-
-      markers.push(
-        new google.maps.Marker({
-          position: position,
-          title: title,
-          map: map,
-          animation: google.maps.Animation.DROP
-        })
-      );
-    })
-  }
-}
 
 
 
